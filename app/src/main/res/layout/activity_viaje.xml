@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity_viaje"
+
+    >
+
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="324dp"
+        android:layout_height="wrap_content"
+        android:text="Herramientas de software."
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="39dp" />
+
+    <TextView
+        android:id="@+id/txtHerramientas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Android Studio " />
+
+    <TextView
+        android:id="@+id/txtAndroidStudio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Es lo menos que se debe tener instalado para comenzar el desarrollo de una aplicación para Android. Android Studio es el entorno de desarrollo para Android de Google, se trata del sustituto de Eclipse como entorno de desarrollo oficial y viene con todas las bibliotecas y herramientas para crear la aplicación de forma correcta de principio a fin. Disponible para todas las plataformas (Linux, Windows, Mac OS …) en su descarga incluirá un sistema Android emulado para poder probar el proyecto en desarrollo y ver el resultado en cualquier momento."
+        />
+    <TextView
+        android:id="@+id/txtLengua"
+        android:layout_width="324dp"
+        android:layout_height="wrap_content"
+        android:text="Lenguaje"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="39dp" />
+    <TextView
+        android:id="@+id/txtLenguaje"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Kotlin" />
+
+    <TextView
+        android:id="@+id/txtKotlin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Kotlin es un lenguaje de programación fuertemente tipado desarrollado por JetBrains (los creadores de IntelliJ IDEA). Ha sido fuertemente influenciado por lenguajes como Groovy, Scala o C#. Permite generar código para la JVM (máquina virtual de Java 6) Javascript y en las últimas versiones también ejecutables nativos" />
+    <TextView
+        android:id="@+id/txtEmula"
+        android:layout_width="324dp"
+        android:layout_height="wrap_content"
+        android:text="Emulador"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="39dp" />
+    <TextView
+        android:id="@+id/txtEmulador"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Android Emulator" />
+
+    <TextView
+        android:id="@+id/txtEmulado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Android Emulator simula dispositivos Android en una computadora para que puedas probar tu app en diferentes dispositivos y niveles de API de Android sin necesidad de contar con los dispositivos físicos. El emulador proporciona casi todas las funciones de un dispositivo Android real. Puedes simular llamadas y mensajes de texto entrantes, especificar la ubicación del dispositivo, utilizar diferentes velocidades de red, probar sensores de rotación y otros sensores de hardware, acceder a Google Play Store y mucho más." />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="Regresar"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="606dp" />
+
+
+</LinearLayout>
+</ScrollView>

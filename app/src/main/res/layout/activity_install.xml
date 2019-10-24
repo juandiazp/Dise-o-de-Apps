@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Install">
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Instalar Android Studio en Windows"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="39dp" />
+
+    <ImageView
+        android:id="@+id/imgSha"
+        android:layout_width="match_parent"
+        android:layout_height="93dp"
+        app:srcCompat="@drawable/android" />
+
+    <TextView
+        android:id="@+id/txtPUno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Paso uno:" />
+
+    <TextView
+        android:id="@+id/txtAndroidStudio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Si descargaste un archivo .exe (recomendado), haz doble clic en él para iniciarlo.                                                                      Si descargaste un archivo .zip, extráelo y copia la carpeta android-studio en tu carpeta Archivos de programa. A continuación, abre la carpeta android-studio > bin y, luego, inicia studio64.exe (para máquinas de 64 bits) o studio.exe (para las de 32 bits)."
+        />
+    <TextView
+        android:id="@+id/txtPasoDos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Paso dos:" />
+
+    <TextView
+        android:id="@+id/txtAndroid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Sigue los pasos del asistente de configuración en Android Studio y asegúrate de instalar los paquetes de SDK que recomiende."
+        />
+    <Button
+        android:id="@+id/butt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="Regresar"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="606dp" />
+
+
+
+</LinearLayout>
